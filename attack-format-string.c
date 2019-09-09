@@ -1,6 +1,8 @@
 // Adam Marcus aem2nj
 // HW 2
 // attack-format-string.c
+// This file creates a text file used to carry out a format string attack on an unknown executable to change
+// what the executable prints out from "F" to "A" for the student's grade
 #include <stdio.h>
 int main(void){
   // 0x0000000000601068 defaultLetterGrade address obtained via objdump
