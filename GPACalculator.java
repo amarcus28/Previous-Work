@@ -1,6 +1,7 @@
-/* Homework 5 GUI GPA Calculator
+/* GUI GPA Calculator
  * Adam Marcus aem2nj
- * 
+ * This is a GUI GPA Calculator Applet made using Java
+ *
  * Sources:
  * https://docs.oracle.com/javase/tutorial/uiswing/components/table.html
  * https://docs.oracle.com/javase/8/docs/api/javax/swing/JTextField.html#setHorizontalAlignment-int-
