@@ -4,6 +4,10 @@
 #include <immintrin.h>
 #include <smmintrin.h>
 
+// This file was used to smooth colored squares by averaging the colors of all surrounding squares using rgb values as well
+// as an "alpha" transparency value.  This exercise, from CS3330 - Computer Architecture, was meant to optimize that process.
+// In this file I used loop unrolling, method inlining, and SIMD registers to smooth squares in fewer cycles.
+
 /* 
  * Please fill in the following team struct 
  */
