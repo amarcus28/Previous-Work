@@ -1,5 +1,8 @@
 // Adam Marcus aem2nj
 // pipehw2.hcl
+// This is a fully functioning y86 (simplified x86) processor
+// It is a 5 stage processor with full forwarding support as well as hazard control and branch prediction
+// I created this throughout a semester in CS3330 - Computer Architecture
 
 ########## the PC and condition codes registers #############
 register fF { predPC:64 = 0; }
