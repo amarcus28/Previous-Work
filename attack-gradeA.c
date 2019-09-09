@@ -1,6 +1,8 @@
 // Adam Marcus aem2nj
 // attack-gradeA.c
 // CS4630 Homework 1
+// This file creates a text file used to carry out a buffer overflow attack on an unknown executable to change
+// what the executable prints out from "F" to "A" for the student's grade
 #include <stdio.h>
 #include <string.h>
 /*
